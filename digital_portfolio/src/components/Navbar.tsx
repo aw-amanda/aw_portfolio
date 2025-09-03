@@ -1,7 +1,5 @@
 import { useState, useEffect } from 'react'
 
-// Desktop Nav Links not working
-
 interface NavLink {
   url: string
   text: string
@@ -12,10 +10,10 @@ const navLinks: NavLink[] = [
   { url: "#", text: "Home" },
   { url: "#about", text: "About" },
   { url: "#projects", text: "Projects" },
-  { 
-    url: "https://www.google.com", 
-    text: "Resume", 
-    external: true },
+  // { 
+  //   url: "/", 
+  //   text: "Resume", 
+  //   external: true },
   { 
     url: "https://docs.google.com/forms/d/e/1FAIpQLSdPoCRBeF2HXS2oLEI7Vb4Zvm2yVFfoLnk9s-IQNvECchB0SA/viewform?embedded=true", 
     text: "Contact",
