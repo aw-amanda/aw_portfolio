@@ -8,7 +8,6 @@ import { Hero } from './components/Hero'
 import { About } from './components/About'
 import { Projects } from './components/Projects'
 import { Footer } from './components/Footer'
-import { Scroll } from './components/ui/Scroll'
 
 function App() {
   const [opacity, setOpacity] = useState(1)
