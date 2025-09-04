@@ -8,5 +8,5 @@ export default defineConfig({
     react(),
     tailwindcss()
   ],
-  base: "https://aw-amanda.github.io/portfolio/",
+  base: "/portfolio/",
 });
