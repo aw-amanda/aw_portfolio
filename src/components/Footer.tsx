@@ -30,7 +30,7 @@ export function Footer() {
                   <img
                     src={link.icon}
                     alt=""
-                    className="h-10 w-10 md:w-12 md:h-12"
+                    className="h-8 w-8 md:w-12 md:h-12"
                     loading="lazy"
                     width={32}
                     height={32}
@@ -40,13 +40,13 @@ export function Footer() {
             </div>
           </div>
           <div className="flex text-center items-center p-2 mt-2">
-            <p className="text-xl text-black">Amanda Williamson © 2025</p>
+            <p className="text-md md:text-xl text-black">Amanda Williamson © 2025</p>
           </div>
           
-          <div className="flex flex-wrap justify-center gap-6 my-3">
+          <div className="flex justify-center my-3">
             <a
               href="https://www.termsfeed.com/live/a3c2186c-309d-4307-8cc8-b8a4b41e8ddc"
-              className="text-md text-shadow-[0_5px_3px_rgb(0_0_0_/_0.5)] hover:underline focus:outline-none focus:underline"
+              className="text-sm md:text-md text-shadow-[0_5px_3px_rgb(0_0_0_/_0.5)] hover:underline focus:outline-none focus:underline"
               aria-label="View Privacy Policy"
               target="_blank"
             >

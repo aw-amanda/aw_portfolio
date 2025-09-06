@@ -9,13 +9,13 @@ export const Projects = () => {
     <section 
       id="projects"
       ref={sectionRef}
-      className="min-h-screen w-full relative bg-black py-50"
+      className="min-h-screen w-full relative bg-black py-10 md:py-50"
       aria-labelledby="projects-heading"
     >
-      <div className="container mx-auto px-4 flex flex-col items-center justify-center h-full">
+      <div className="mx-auto md:px-4 flex items-center justify-center h-full">
           <h2 
             id="projects-heading"
-            className="text-center text-8xl p-2 font-[Fascinate_Inline] mb-5 text-transparent bg-clip-text 
+            className="text-center text-3xl md:text-8xl font-[Fascinate_Inline] md:mb-5 text-transparent bg-clip-text 
             bg-gradient-to-r from-rose-600 via-lime-400 to-fuchsia-600 text-shadow-black"
           >
             Featured Projects
@@ -35,8 +35,8 @@ export const Projects = () => {
                 target="_blank"
               >
                 <div className="p-3 h-1/4 bg-black flex flex-col justify-center">
-                  <h3 className="text-xl md:text-2xl font-bold text-white">{project.title}</h3>
-                  <p className="text-gray-300">{project.description}</p>
+                  <h3 className="text-lg md:text-2xl font-bold text-white">{project.title}</h3>
+                  <p className="text-gray-300 text-sm md:text-lg">{project.description}</p>
                 </div>
                 <div className="bg-black w-full">
                   <img 
