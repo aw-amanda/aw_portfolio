@@ -9,17 +9,20 @@ export const Hero = () => {
                 >
                     Hi! I'm Amanda
                 </h1>
-                <h2 className="flex flex-col md:flex-row animated-fade-in text-xl md:text-5xl py-4 px-2 font-[Fascinate_Inline] text-transparent
-                              bg-clip-text bg-gradient-to-r from-rose-600 via-lime-400 to-fuchsia-600"
-                >
-                    <span className="motion-safe:animate-pulse text-lg md:text-6xl text-shadow-lg text-shadow-neutral-50/50 px-4"> 
-                         ⇩  
-                    </span> 
-                     welcome to my web developer portfolio  
-                    <span className="motion-safe:animate-pulse text-lg md:text-6xl text-shadow-lg text-shadow-neutral-50/50 px-4">
-                         ⇩  
-                    </span> 
-                </h2>
+                <div className="flex items-center justify-center">
+                    <h2 className="flex flex-col md:flex-row items-center justify-center animated-fade-in py-4 px-2 
+                                text-xl md:text-5xl font-[Fascinate_Inline] text-transparent
+                                bg-clip-text bg-gradient-to-r from-rose-600 via-lime-400 to-fuchsia-600"
+                    >
+                        <span className="motion-safe:animate-pulse text-lg md:text-6xl text-shadow-lg text-shadow-neutral-50/50 px-4"> 
+                            ⇩  
+                        </span> 
+                        welcome to my web developer portfolio  
+                        <span className="motion-safe:animate-pulse text-lg md:text-6xl text-shadow-lg text-shadow-neutral-50/50 px-4">
+                            ⇩  
+                        </span> 
+                    </h2>
+                </div>
             </div>
         </section>
     )
