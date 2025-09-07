@@ -48,6 +48,6 @@ export const ProjectItems: ProjectItem[] = [
         title: "UI Component Library",
         img: project5,
         description: "React, TypeScript, CSS",
-        url: "https://github.com/aw-amanda/component_library"
+        url: "https://aw-amanda.github.io/component_library/"
     },
 ]
