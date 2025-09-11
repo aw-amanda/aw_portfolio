@@ -35,7 +35,7 @@ export const ProjectItems: ProjectItem[] = [
         title: "Task Manager Application",
         img: project4,
         description: "React, TypeScript, and Supabase",
-        url: "https://github.com/aw-amanda/Task_Manager",
+        url: "https://aw-amanda.github.io/Task_Manager/",
     },
     {
         title: "UI Component Library",
