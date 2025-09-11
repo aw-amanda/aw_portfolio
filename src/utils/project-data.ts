@@ -1,8 +1,7 @@
 import project1 from '../assets/ecommerce.png'
 import project2 from '../assets/LandingPageMockup.png'
-import project6 from '../assets/Weather_App_Mockup.png'
-import project4 from '../assets/Task_Manager_Calendar_Mockup.png'
 import project3 from '../assets/DashboardShadcnUIDarkGreen.png'
+import project4 from '../assets/Task_Manager_Mockup.png'
 import project5 from '../assets/ComponentLibrary.png'
 
 
@@ -37,12 +36,6 @@ export const ProjectItems: ProjectItem[] = [
         img: project4,
         description: "React, TypeScript, and Supabase",
         url: "https://github.com/aw-amanda/Task_Manager",
-    },
-    {
-        title: "Pure Python Weather Application",
-        img: project6,
-        description: "Python, PyQt, and OpenWeather API",
-        url: "https://github.com/aw-amanda/Python_Weather_App",
     },
     {
         title: "UI Component Library",

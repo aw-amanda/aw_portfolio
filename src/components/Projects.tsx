@@ -15,7 +15,7 @@ export const Projects = () => {
       <div className="mx-auto md:px-4 flex items-center justify-center h-full">
           <h2 
             id="projects-heading"
-            className="text-center text-3xl md:text-8xl font-[Fascinate_Inline] md:mb-5 text-transparent bg-clip-text 
+            className="text-center text-3xl md:text-7xl md:py-2 font-[Fascinate_Inline] md:mb-5 text-transparent bg-clip-text 
             bg-gradient-to-r from-rose-600 via-lime-400 to-fuchsia-600 text-shadow-black"
           >
             Featured Projects
@@ -27,7 +27,7 @@ export const Projects = () => {
             key={`project-${index}`}
             className="px-4"
           > 
-            <div className="w-full rounded-xl overflow-hidden flex flex-col">
+            <div className="w-full md:max-h-[500px] xl:max-h-[600px] rounded-xl overflow-hidden flex flex-col">
               <a 
                 href={project.url}
                 className="cursor-pointer block focus:outline-none h-full"

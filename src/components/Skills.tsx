@@ -11,7 +11,7 @@ export const Skills = () => {
                 <ul className="skill-box flex flex-wrap justify-center gap-3">
                     {['HTML', 'CSS', 'JavaScript', 'TypeScript', 'React.js', 'Next.js', 'TailwindCSS', 
                         'Bootstrap', 'RESTful APIs', 'Zustand', 'Redux', 'ContextAPI', 'Python', 'Django', 
-                        'Flask', 'FastAPI', 'Redux', 'PostgreSQL', 'GraphQL', 'Git'
+                        'Flask', 'FastAPI', 'PostgreSQL', 'GraphQL', 'Git'
                     ].map((skill) => (
                         <li 
                             key={skill} 
