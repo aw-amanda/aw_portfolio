@@ -17,7 +17,7 @@ export const Hero = () => {
                         <span className="motion-safe:animate-pulse text-lg md:text-6xl text-shadow-lg text-shadow-neutral-50/50 px-4"> 
                             ⇩  
                         </span> 
-                        welcome to my web developer portfolio  
+                        welcome to my portfolio  
                         <span className="motion-safe:animate-pulse text-lg md:text-6xl text-shadow-lg text-shadow-neutral-50/50 px-4">
                             ⇩  
                         </span> 
